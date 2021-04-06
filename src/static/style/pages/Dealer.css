@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .dealer-page{
     background-color: white;
     display: flex;
     flex-direction: column;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 .dealer-container{
@@ -12,6 +14,40 @@
 }
 
 .auth-img{
-  width: 70%;
+  width: 100%;
   height: auto;
+}
+
+.dealer-verify{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h4{
+    font-weight: 600;
+    padding: 10px;
+}
+
+h5{
+    font-weight: 500;
+    padding: 10px;
+    font-size: 20px;
+}
+
+p{
+    font-weight: 500;
+    padding: 10px;
+    font-size: 20px;
+}
+.btn{
+    max-width: 400px;
+    align-items: center;
+}
+.click{
+    margin-right: 40px;
 }

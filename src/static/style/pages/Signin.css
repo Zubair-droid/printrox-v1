@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .signin-page{
+  font-family: 'Montserrat', sans-serif;
   background-color: white;
   height: 100vh;
   /* display: flex; */
