@@ -1,0 +1,87 @@
+.signin-page{
+  background-color: white;
+  height: 100vh;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center; 
+}
+
+.signin-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signin-header{
+  font-weight: 600;
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: -60px;
+}
+
+.logo-div{
+  margin-top: 30px;
+  width: 30%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.logo-img{
+  width: 40%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.signin-form{
+    align-content: center;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    /* align-items: center; */
+    border: 1px solid #6c63ff;
+    height: fit-content;
+    border-radius: 6px;
+    padding: 30px;
+}
+.input{
+  margin-bottom: 15px;
+}
+.inputText{
+  font-weight: 600;
+  font-size: smaller;
+}
+
+.inputField{
+  text-align: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.checkInput{
+  margin: 15px 0;
+}
+
+span{
+  font-size: 18px;
+  font-weight: 600; 
+  
+}
+
+.btn{
+  margin-top: 10px;
+  background-color: #6c63ff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.newUser{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}

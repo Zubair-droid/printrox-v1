@@ -1,0 +1,17 @@
+.dealer-page{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dealer-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.auth-img{
+  width: 70%;
+  height: auto;
+}
