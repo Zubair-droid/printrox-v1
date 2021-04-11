@@ -18,13 +18,13 @@ function Signup() {
             <input type = "text" className = "inputField" required = "true"></input>
             </div>
 
-            <div className = "input">
-            <h5 className = "inputText">Confirm Password</h5>
+           <div className = "input">
+            <h5 className = "inputText">Password</h5>
             <input type = "password" className = "inputField" required = "true"></input>
             </div>
 
             <div className = "input">
-            <h5 className = "inputText">Password</h5>
+            <h5 className = "inputText">Confirm Password</h5>
             <input type = "password" className = "inputField" required = "true"></input>
             </div>
 

@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="link-group">
-            <p className = "footer-nav">HOME | CONTACT | ABOUT US | <Link to = "/dealer" >DEALER</Link> </p>
+            <p className = "footer-nav"><Link to = '/' >HOME </Link>| CONTACT | ABOUT US | <Link to = "/dealer" >DEALER</Link> </p>
           </div>
         </div>
         <footer className="footer-p2">

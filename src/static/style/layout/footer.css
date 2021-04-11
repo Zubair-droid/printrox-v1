@@ -38,19 +38,16 @@
 }
 
 .footer-sec .link-group {
+  text-decoration: none;
   color: #f0f0ff;
   font-size: 13px;
   display: block;
   margin: 0 auto;
   width: fit-content;
   padding: 0;
-  text-decoration: none;
 }
 
-.footer-sec.link-group.footer-nav{
-  text-decoration: none;
-  color: white;
-}
+
 .footer-sec .footer-p2 {
   background-color: #514e7f;
   color: #f0f0ff;
@@ -67,3 +64,14 @@
   padding: o;
 }
 
+@media only screen and (max-width: 732px){
+  .footer-sec .link-group{
+    transform: scale(0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  
+}
