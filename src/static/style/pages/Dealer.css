@@ -4,21 +4,21 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
-.dealer-container{
+.dealer-page .dealer-container{
     display: flex;
     flex-direction: column;
     align-content: center;
 }
 
-.auth-img{
+.dealer-page .auth-img{
   width: 100%;
   height: auto;
 }
 
-.dealer-verify{
+.dealer-page .dealer-verify{
     align-items: center;
     text-align: center;
     display: flex;
@@ -28,26 +28,26 @@
     margin-right: 10px;
 }
 
-h4{
+.dealer-page h4{
     font-weight: 600;
     padding: 10px;
 }
 
-h5{
+.dealer-page h5{
     font-weight: 500;
     padding: 10px;
     font-size: 20px;
 }
 
-p{
+.dealer-page p{
     font-weight: 500;
     padding: 10px;
     font-size: 20px;
 }
-.btn{
+.dealer-page .btn{
     max-width: 400px;
     align-items: center;
 }
-.click{
+.dealer-page .click{
     margin-right: 40px;
 }

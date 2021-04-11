@@ -2,7 +2,7 @@
 
 
 .signup-page{
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     background-color: white;
     height: 100vh;
     /* display: flex; */
@@ -73,4 +73,22 @@
     text-align: center;
     font-size: 18px;
     font-weight: 600;
+  }
+
+  @media only screen and (max-width: 732px) {
+    .signup-container{
+      transform: scale(0.9);
+      margin-top: -100px ;
+    }
+
+    .input{
+      font-size: smaller;
+      margin: 1;
+      transform: scale(0.9);
+    }
+
+    .btn{
+
+      transform: scale(0.9);
+    }
   }

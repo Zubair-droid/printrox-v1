@@ -10,7 +10,7 @@ const Home = () => {
             <div className="col-lg-5">
               <p className="heading ">
                 {" "}
-                Start your <span>hassle free</span> printing today
+                Start your hassle free printing today
               </p>
             </div>
             <div className="col-lg-7">

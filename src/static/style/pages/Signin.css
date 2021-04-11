@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
 
 .signin-page{
-  font-family: 'Montserrat', sans-serif;
+ 
   background-color: white;
   height: 100vh;
   /* display: flex; */
@@ -87,4 +87,30 @@ span{
   text-align: center;
   font-size: 18px;
   font-weight: 600;
+}
+
+@media only screen and (max-width: 732px) {
+  .signin-form{
+    margin-bottom: 100px;
+    margin-top: 0px 40px;
+    width: 80%;
+    height: 40%;
+    }
+
+    .input{
+      font-size: smaller;
+      transform: scale(0.9, 0.9);
+      margin: 0;
+    }
+
+    .btn{
+      transform: scale(0.9);
+    }
+
+
+    .signin-container{
+       transform: scale(0.9);
+       margin-top: -100px;
+      }
+  
 }

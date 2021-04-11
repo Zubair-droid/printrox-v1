@@ -44,6 +44,12 @@
   margin: 0 auto;
   width: fit-content;
   padding: 0;
+  text-decoration: none;
+}
+
+.footer-sec.link-group.footer-nav{
+  text-decoration: none;
+  color: white;
 }
 .footer-sec .footer-p2 {
   background-color: #514e7f;
@@ -61,6 +67,3 @@
   padding: o;
 }
 
-.link-group{
-  text-decoration: none;
-}
